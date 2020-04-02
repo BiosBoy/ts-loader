@@ -7,14 +7,10 @@ Entrypoint main = bundle.js
 ERROR in ./lib/index.ts
 Module build failed (from /index.js):
 Error: TypeScript emitted no output for lib\index.ts. The most common cause for this is having errors when building referenced projects.
-    at makeSourceMapAndFinish (dist\index.js:80:15)
-    at successLoader (dist\index.js:68:9)
-    at Object.loader (dist\index.js:22:12)
+    at makeSourceMapAndFinish (dist\index.js:106:18)
+    at successLoader (dist\index.js:92:9)
+    at Object.loader (dist\index.js:43:5)
  @ ./app.ts 3:12-28
-
-ERROR in tsconfig.json
-[90m[tsl] [39m[1m[31mERROR[39m[22m
-[1m[31m      TS6305: Output file '/.test/projectReferencesNotBuilt_SemanticErrorInReference/lib/index.d.ts' has not been built from source file '/.test/projectReferencesNotBuilt_SemanticErrorInReference/lib/index.ts'.[39m[22m
 
 ERROR in lib\index.ts
 ./lib/index.ts
